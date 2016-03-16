@@ -16,4 +16,11 @@ twitter_username: freekrai
 github_username:  parsedeck
 
 # Build settings
+permalink: pretty
 markdown: kramdown
+highlighter: rouge
+paginate: 10
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
